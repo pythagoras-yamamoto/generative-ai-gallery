@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write ."
+    "lint": "next lint --dir src",
+    "lint:fix": "yarn lint --fix",
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'"
   },
   "dependencies": {
     "@types/node": "20.1.4",
