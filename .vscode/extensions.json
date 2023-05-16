@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "hediet.vscode-drawio",
+    "dbaeumer.vscode-eslint",
+    "ms-vsliveshare.vsliveshare"
+  ]
+}
